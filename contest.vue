@@ -71,7 +71,7 @@
                                         </label>
         						    </div>
         						    <div class="col-xs-12">
-        						        <p>For more details about personal privacy, please read our <a href="/pages/longbeach-privacy-policy" target="_blank">Privacy Policy</a>.</p>
+        						        <p>For more details about personal privacy, please read our <a href="/pages/costamesa-privacy-policy" target="_blank">Privacy Policy</a>.</p>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -119,7 +119,7 @@
                     console.error("Could not retrieve data from server. Please check internet connection and try again.");
                 }); 
                 this.$store.dispatch("getData", "contests").then(response => {
-                    this.currentContest = this.findContestByShowOnSlug('longbeach-contest');
+                    this.currentContest = this.findContestByShowOnSlug('costamesa-contest');
                     this.dataLoaded = true;
                     console.log(this.currentContest)
                 }, error => {
